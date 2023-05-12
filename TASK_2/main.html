@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>
+            <center>My Portfolio</center>
+        </h1>
+        <nav>
+            <ul>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact-me">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about-me">
+            <h2><u><center>About Me</center></u></h2>
+            <p>Hi, My name is Ritika Gorai and I am a WEB DEVELOPER.<br>Currently doing TECH_INTERN TASK2</p>
+        </section>
+        <section id="projects">
+            <h2><u><center>Projects</center></u></h2>
+            <ul>
+                <li><a href="proj1.html " target="_blank">Project 1</a></li>
+                <li><a href="proj2.html" target="_blank">Project 2</a></li>
+                <li><a href="proj3.html" target="_blank">Project 3</a></li>
+            </ul>
+        </section>
+        <section id="contact-me">
+            <h2><u><center>Contact Me</center></u></h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Feedback:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+        <section id="resume">
+            <h2><u><center>Resume</center></u></h2>
+            <p>You can download my resume here:</p>
+            <a href="my-resume.pdf" download>Download Resume</a>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 My Portfolio</p>
+    </footer>
+
+</body>
+<script src="script.js"></script>
+
+</html>
