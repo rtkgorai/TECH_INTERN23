@@ -1,1 +1,3 @@
 
+LEVEL3:
+Create a BOOKSTORE WEBSITE using only HTML, CSS and JAVASCRIPT.Also add features so that people can check the price of books. Website should be responsive.
